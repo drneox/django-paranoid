@@ -24,7 +24,7 @@ this library adds 'created_at', 'updated_at' and 'delete_at'  fields like a rail
 
 3.- Add to django-admin:
 
-    class ContactAdmin(LoggeableAdmin):  
+    class MyModelAdmin(LoggeableAdmin):  
         pass  
       ...
-    admin.site.register(Contact, ContactAdmin)
+    admin.site.register(MyModel, MyModelAdmin)
