@@ -8,7 +8,7 @@ this library adds 'created_at', 'updated_at' and 'delete_at'  fields like a rail
     pip install django-paranoid
 
 ## How to start
-1.- Add to django-loggable in the django apps:
+1.- Add to django-paranoid in the django apps:
 
     INSTALLED_APPS = [
         'django.contrib.admin',
