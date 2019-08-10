@@ -1,11 +1,12 @@
 
-# django-loggable
+# django-paranoid
+
 this library adds 'created_at', 'updated_at' and 'delete_at'  fields like a rail apps in django, also added soft delete method.
 
 
 ## install
 
-    pip install django-loggable
+    pip install django-paranoid
 
 ## How to start
 1.- Add to django-loggable in the django apps:

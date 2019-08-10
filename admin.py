@@ -8,6 +8,6 @@ url: http://carlosganoza.com
 from django.contrib import admin
 
 
-class LoggeableAdmin(admin.ModelAdmin):
+class ParanoidAdmin(admin.ModelAdmin):
     readonly_fields = ('created_at','deleted_at','updated_at')
 
