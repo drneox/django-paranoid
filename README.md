@@ -14,7 +14,7 @@ this library adds 'created_at', 'updated_at' and 'delete_at'  fields like a rail
         'django.contrib.admin',
       'django.contrib.auth',
             ...
-      'django-paranoid'
+      'django_paranoid'
       ...
     ]
 2.- Extends ParanoidModel in the model to use:
