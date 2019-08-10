@@ -11,7 +11,7 @@ from django.db import models
 
 class ParanoidModelManager(models.Manager):
     def get_queryset(self):
-        return super().get_query_set().filter(deleted_at__isnull=True)
+        return super(ParanoidModelManager, self).get_query_set().filter(deleted_at__isnull=True)
 
 
 class ParanoidModel(models.Model):

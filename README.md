@@ -55,3 +55,8 @@ Now the record has a deleted_at field and if do you want show the delete record 
     datetime.datetime(2019, 8, 10, 6, 16, 44, 633727, tzinfo=<UTC>)
 
     
+## Hard Delete
+If do you want to delete record from DB, you only should using True param:
+
+    m = Mymodel.objects.last()
+    m.delete(True)
