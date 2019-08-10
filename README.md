@@ -48,7 +48,7 @@ This only applies soft delete, so the record will remain in the database, but it
 
 Now the record has a deleted_at field and if do you want show the delete record you could using 'objects_with_deleted':
 
-    m = MyMode.objects_with_deleted.last()
+    m = MyModel.objects_with_deleted.last()
     >>> m
     <MyModel: name>
     >>> m.deleted_at
@@ -58,5 +58,5 @@ Now the record has a deleted_at field and if do you want show the delete record 
 ## Hard Delete
 If do you want to delete record from DB, you only should using True param:
 
-    m = Mymodel.objects.last()
+    m = MyModel.objects.last()
     m.delete(True)
