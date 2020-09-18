@@ -17,7 +17,7 @@ class ParanoidModelManager(models.Manager):
 class ParanoidModel(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    deleted_at = models.DateTimeField(blank=True, null=True)
+    deleted_at = models.DateTimeField(blank=True, null=True, default=None)
     objects = ParanoidModelManager()
     objects_with_deleted = models.Manager()
 
@@ -31,4 +31,6 @@ class ParanoidModel(models.Model):
             self.deleted_at = now()
             self.save()
 
-
+    def restore(self):
+      self.deleted_at = None
+      self.save()

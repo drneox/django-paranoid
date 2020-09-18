@@ -54,6 +54,10 @@ Now the record has a deleted_at field and if do you want show the delete record 
     >>> m.deleted_at
     datetime.datetime(2019, 8, 10, 6, 16, 44, 633727, tzinfo=<UTC>)
 
+## Restore Soft Delete
+On object which was soft deleted, follow steps above to soft delete object
+
+    m.restore()
     
 ## Hard Delete
 If do you want to delete record from DB, you only should using True param:
