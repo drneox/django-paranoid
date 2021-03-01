@@ -10,7 +10,7 @@ setup(name="django-paranoid",
       author="Carlos Ganoza Plasencia",
       author_email="cganozap@gmail.com",
       url="https://github.com/drneox/django-paranoid",
-      license="GPL",
+      license="MIT",
       packages=["django_paranoid"],
       keywords="django created_at updated_at deleted_at fields models django-admin soft delete softdelete",
       )

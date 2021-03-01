@@ -1,4 +1,9 @@
-![python test](https://github.com/drneox/django-paranoid/actions/workflows/python-test.yml/badge.svg)
+![build](https://github.com/drneox/django-paranoid/actions/workflows/python-test.yml/badge.svg)
+[![Open Source Love svg3](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/drneox/django-paranoid)
+[![license](https://img.shields.io/github/license/drneox/django-paranoid.svg)](https://github.com/drneox/django-paranoid/blob/master/LICENSE)
+[![release](https://img.shields.io/github/release/drneox/django-paranoid.svg)](https://GitHub.com/drneox/django-paranoid/releases/)
+![download](https://img.shields.io/pypi/dm/django-paranoid.svg)
+[![GitHub stars](https://img.shields.io/github/stars/drneox/django-paranoid.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/drneox/django-paranoid/stargazers/)
 
 # django-paranoid
 
