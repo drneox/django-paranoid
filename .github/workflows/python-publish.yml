@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - working-directory: ./
       - uses: actions/checkout@v2
       - name: Set up Python
         uses: actions/setup-python@v2
