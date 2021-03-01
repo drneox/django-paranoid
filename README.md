@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/github/license/drneox/django-paranoid.svg)](https://github.com/drneox/django-paranoid/blob/master/LICENSE)
 [![release](https://img.shields.io/github/release/drneox/django-paranoid.svg)](https://GitHub.com/drneox/django-paranoid/releases/)
 ![download](https://img.shields.io/pypi/dm/django-paranoid.svg)
-[![GitHub stars](https://img.shields.io/github/stars/drneox/django-paranoid.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/drneox/django-paranoid/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/drneox/django-paranoid.svg?style=social&label=Star)](https://GitHub.com/drneox/django-paranoid/stargazers/)
 
 # django-paranoid
 
