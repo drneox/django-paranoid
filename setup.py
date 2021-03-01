@@ -2,7 +2,7 @@ from setuptools import setup
 excluded = ['manage.py, tests/settings.py']
 
 setup(name="django-paranoid",
-      version="0.9",
+      version="1.0",
       description="this library adds 'created_at', 'updated_at' and 'delete_at'  fields like a rail apps in django,"
                   " also added soft delete method",
       long_description=open('README.md', 'r').read(),
