@@ -7,10 +7,6 @@ on:
   release:
     types: [created]
     
-defaults:
-  run:
-    working-directory: ./
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -32,3 +28,4 @@ jobs:
         run: |
           python setup.py sdist bdist_wheel
           twine upload dist/*
+        working-directory: ./
