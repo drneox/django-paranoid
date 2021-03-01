@@ -62,7 +62,7 @@ Now the record has a deleted_at field and if do you want show the delete record 
 
 ## Restore Soft Delete
 
-On object which was soft deleted, follow steps above to soft delete object
+On object which was soft deleted, follow steps above to restore object
 
     m.restore()
 
