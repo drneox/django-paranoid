@@ -1,4 +1,5 @@
 from setuptools import setup
+excluded = ['manage.py, tests/settings.py']
 
 setup(name="django-paranoid",
       version="0.9",
